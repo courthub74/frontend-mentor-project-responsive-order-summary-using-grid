@@ -13,8 +13,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Red Hat Display', sans-serif;
-    max-width: 1440px;
-    max-height: 1056px;
+    max-width: 1440px;  //1440
+    max-height: 900px;
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-color: $paleblue;
@@ -91,4 +91,20 @@ body {
             margin-top: 20px;
         }
     }
+}
+
+
+// Responsive Design
+@media screen and (max-width: 600px) {
+    body {
+        .card {
+            width: 375px;
+            .img {
+                img {
+                    width: 375px;
+                }
+            }
+        }
+    }
+
 }

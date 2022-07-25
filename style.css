@@ -6,7 +6,7 @@ body {
   padding: 0px;
   font-family: "Red Hat Display", sans-serif;
   max-width: 1440px;
-  max-height: 1056px;
+  max-height: 900px;
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-color: hsl(225deg, 100%, 94%);
@@ -80,4 +80,13 @@ body .card .cancel :active {
 }
 body .card .attribution {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body .card {
+    width: 375px;
+  }
+  body .card .img img {
+    width: 375px;
+  }
 }/*# sourceMappingURL=style.css.map */
