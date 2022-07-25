@@ -12,15 +12,28 @@ body {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display', sans-serif;
+    max-width: 1440px;
+    max-height: 1056px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: $paleblue;
     .card {
         max-width: 450px;
         border-radius: 20px;
+        margin: 20px auto;
+        border-radius: 20px;
+        box-shadow: 0px 10px 20px rgb(190, 190, 190, 190);
+        background-color: white;
+        img {
+            border-radius: 20px 20px 0px 0px;
+        }
         .order {
             width: 70%;
             margin: auto;
             p {
                 color: $desaturatedblue;
+                padding-bottom: 10px;
             }
 
         }
@@ -33,6 +46,7 @@ body {
             margin: auto;
             background-color: $verypaleblue;
             border-radius: 20px;
+            padding-bottom: 10px;
             img {
                 margin: auto;
             }
@@ -56,10 +70,14 @@ body {
             margin: 20px auto;
             background-color: $brightblue;
             border-radius: 10px;
-            border-color: $brightblue;
+            border: none;
+            box-shadow: 0px 5px 10px rgb(190, 190, 190, 190);
             a {
                 color: $paleblue;
                 text-decoration: none;
+                font-weight: 700;
+                font-family: 'Red Hat Display', sans-serif;
+                color: aliceblue;
             }
         }
         .cancel {
