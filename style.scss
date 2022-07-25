@@ -12,9 +12,10 @@ body {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    
+    font-family: 'Red Hat Display';
     .card {
         max-width: 450px;
+        border-radius: 20px;
         .order {
             width: 70%;
             margin: auto;

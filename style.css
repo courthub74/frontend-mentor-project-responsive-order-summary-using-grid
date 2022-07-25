@@ -4,75 +4,62 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  font-family: "Red Hat Display";
 }
-
 body .card {
   max-width: 450px;
+  border-radius: 20px;
 }
-
 body .card .order {
   width: 70%;
   margin: auto;
 }
-
 body .card .order p {
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
 }
-
 body .card .plan {
   width: 80%;
-  display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
   height: 100px;
   border-radius: 20px;
   margin: auto;
-  background-color: #f5f7ff;
+  background-color: hsl(225deg, 100%, 98%);
   border-radius: 20px;
 }
-
 body .card .plan img {
   margin: auto;
 }
-
 body .card .plan .text {
   text-align: left;
 }
-
 body .card .plan .text h2 {
   margin-bottom: 5px;
 }
-
 body .card .plan .text p {
   margin-top: 0px;
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
 }
-
 body .card .plan a {
   margin: auto;
 }
-
 body .card .button {
   width: 80%;
   height: 50px;
   margin: 20px auto;
-  background-color: #3829e0;
+  background-color: hsl(245deg, 75%, 52%);
   border-radius: 10px;
-  border-color: #3829e0;
+  border-color: hsl(245deg, 75%, 52%);
 }
-
 body .card .button a {
-  color: #e0e8ff;
+  color: hsl(225deg, 100%, 94%);
   text-decoration: none;
 }
-
 body .card .cancel a,
 body .card .cancel :active {
   text-decoration: none;
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
 }
-
 body .card .attribution {
   margin-top: 20px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
