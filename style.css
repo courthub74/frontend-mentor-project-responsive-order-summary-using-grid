@@ -48,7 +48,9 @@ body .card .plan .text {
   text-align: left;
 }
 body .card .plan .text h2 {
+  padding-top: 10px;
   margin-bottom: 5px;
+  font-size: large;
 }
 body .card .plan .text p {
   margin-top: 0px;
@@ -80,6 +82,7 @@ body .card .cancel :active {
 }
 body .card .attribution {
   margin-top: 20px;
+  padding-bottom: 50px;
 }
 
 @media screen and (max-width: 600px) {
