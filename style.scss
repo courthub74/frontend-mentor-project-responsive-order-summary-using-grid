@@ -18,14 +18,15 @@ body {
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-color: $paleblue;
+    padding-top: 100px;
     .card {
         max-width: 450px;
         border-radius: 20px;
         margin: 20px auto;
         border-radius: 20px;
-        box-shadow: 0px 10px 20px rgb(190, 190, 190, 190);
+        box-shadow: 5px 20px 20px grey; 
         background-color: white;
-        img {
+        .img img {
             border-radius: 20px 20px 0px 0px;
         }
         .order {
@@ -65,6 +66,9 @@ body {
             a {
                 margin: auto;
             }
+            a:hover {
+                text-decoration: none;
+            }
         }
         .button {
             width: 80%;
@@ -73,7 +77,7 @@ body {
             background-color: $brightblue;
             border-radius: 10px;
             border: none;
-            box-shadow: 0px 5px 10px rgb(190, 190, 190, 190);
+            box-shadow: 0px 10px 10px lightgray;
             a {
                 color: $paleblue;
                 text-decoration: none;
@@ -82,11 +86,20 @@ body {
                 color: aliceblue;
             }
         }
+        .button:hover {
+            // background-color: $desaturatedblue;
+            filter: hue-rotate(15deg);
+            filter: opacity(0.9);
+        }
         .cancel {
             a,
             :active {
                 text-decoration: none;
                 color: $desaturatedblue;
+                font-weight: 700;
+            }
+            a:hover {
+                color: black;
             }
         }
         .attribution {
