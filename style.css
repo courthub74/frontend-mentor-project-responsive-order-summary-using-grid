@@ -76,7 +76,8 @@ body .card .button {
 body .card .button a {
   color: hsl(225deg, 100%, 94%);
   text-decoration: none;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: bold;
   font-family: "Red Hat Display", sans-serif;
   color: aliceblue;
 }
